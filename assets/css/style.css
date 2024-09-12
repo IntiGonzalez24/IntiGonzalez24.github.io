@@ -1,3 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: bisque;
 }
+header{
+    background-image: url(/assets/img/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+    
+
+}
+.about{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    margin-left: 250px;
+    margin-right: 250px;
+    gap: 20px;
+
+}
+.perfil{
+width: 50%;
+background-color: rgb(21, 206, 37);
+height: 200px;
+}
+.infoPersonal{
+width: 50%;
+background-color: brown;
+height: 200px;
+}
+.educacion{
+    width: 80%;
+    background-color: blue;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.historia{
+    width: 50%;
+    height: 480px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: red;
+
+}
+.lenguajesProgramacion{
+    width: 50%;
+    height: 480px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.python{
+    background: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.javaScript{
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.php{
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 100%;
+}
+.circular{
+    border-radius: 50%;
+}
+.tituloLenguaje{
+    text-align: center;
+    border:  2px solid black;
+  
+}
+.lenguajes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+}
+.proyectos{
+    width: 80%;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.ImgPerfil{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+.ImgPerfil1{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+    border: 2px solid black;
+    width: 500px;
+    margin-top: 10px;
+    
+  }
+
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+  }
+  nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
